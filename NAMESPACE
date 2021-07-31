@@ -1,0 +1,5 @@
+importFrom("stats", "dnorm", "rnorm", "runif")
+importFrom(mvtnorm, dmvnorm)
+export("lpm4i_log_pseudo_posterior")
+export("lpm4i_sann")
+

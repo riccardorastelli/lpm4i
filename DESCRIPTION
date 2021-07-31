@@ -1,0 +1,9 @@
+Package: lpm4i
+Type: Package
+Title: Latent position modelling for influence
+Version: 1.00
+Date: 2021-07-31
+Authors@R: person(given = "Riccardo", family = "Rastelli", role = c("aut", "cre"), email = "riccardoras@gmail.com")
+Description: Models nodal attributes of a undirected network using latent positions and the observed network structure. This package is associated to the paper Tafakori et al. (2020) "Measuring systemic risk and contagion in the European financial network" <arXiv:1911.11488>.
+License: GPL-3
+Imports: Rcpp (>= 0.12.19), mvtnorm
